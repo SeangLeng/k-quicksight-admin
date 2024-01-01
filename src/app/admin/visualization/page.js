@@ -10,9 +10,7 @@ import moment from 'moment';
 import {BiSearch} from "react-icons/bi";
 import { useGetAllVisualizationQuery } from '@/store/features/Visualization/Visualization';
 
-
 const Analysis = () => {
-
     const [page, setPage] = useState(1);
     const [size, setSize] = useState(10);
     const [title,setTitle] = useState('')
